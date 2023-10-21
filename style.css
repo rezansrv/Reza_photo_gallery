@@ -1,0 +1,110 @@
+/* استایل عمومی */
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+
+}
+
+    
+.navBar{
+    display: flex;
+    margin-right:30px ;
+    margin-top: 30px;
+    justify-content: right;
+
+}
+
+.nav ul {
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+color: black;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 40px;
+text-decoration: none;
+}
+.container {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* استایل گالری عکس */
+.gallery {
+    max-width: 1200px;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galleryTitle{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+    margin-top: 30px;
+
+}
+
+.gallery img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#img1{
+    width: 950px;
+    height: 380px;
+}
+#img2{
+    height: 460px;
+}
+#img3{
+    width: 560px;
+    height: 520px;
+}
+#img4{
+    width: 360px;
+    height: 520px;
+}
+#img5{
+    width: 460px;
+    height: 640px;
+}
+#img6{
+    width: 950px;
+    height: 520px;
+}
+.gallery img:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+#img7{
+    width: 950px;
+    height: 400px;
+}
+
+/* استایل پاپ آپ */
+.modal-body {
+    text-align: center;
+}
+
+.modal-footer {
+    justify-content: center;
+}
