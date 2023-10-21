@@ -113,3 +113,28 @@ button:hover {
     margin-right: 10px;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 450px){
+    .navBar{
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .container{
+        padding: 40px;
+    }
+    .nav ul li a{
+        font-size: 15px;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .nav ul li a:hover{
+        color: rgba(0, 0, 0, 0.705);
+        font-size: 14px;
+        }
+}
