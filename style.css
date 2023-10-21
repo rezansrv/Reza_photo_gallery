@@ -32,6 +32,11 @@ line-height: normal;
 margin-left: 40px;
 text-decoration: none;
 }
+
+.nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 19.5px;
+    }
 .container {
     color: rgb(255, 254, 254);
     display: block;
