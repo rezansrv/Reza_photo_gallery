@@ -1,0 +1,78 @@
+body {
+    font-family: 'Vazirmatn', sans-serif;
+    direction: rtl;
+    text-align: right;
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* تغییر به عمودی */
+    justify-content: flex-start; /* تغییر به بالا */
+    align-items: center;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    margin-top: 0;
+    padding: 5px; /* تغییر پدینگ */
+    justify-content: space-between; /* تغییر از راست به فضا بینی */
+    background: white;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none; /* تغییر از li به ul */
+}
+
+.nav ul li {
+    margin-left: 20px; /* تغییر از margin-right به margin-left */
+}
+
+.nav ul li a {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 19.5px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column; /* تغییر به عمودی */
+    align-items: center;
+    text-align: center;
+    margin-top: 80px; /* افزودن مارجین بالا */
+}
+
+.about-box {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff9c;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column; /* تغییر به عمودی */
+    align-items: center;
+}
+
+.about-content {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.profile-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
