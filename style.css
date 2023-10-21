@@ -1,7 +1,7 @@
 /* استایل عمومی */
 body {
     font-family: 'Vazirmatn', sans-serif;
-    background-color: #ffffff;
+    background-color: #000000;
     margin: 0;
     padding: 0;
 
@@ -24,7 +24,7 @@ body {
 }
 
 .nav ul li a{
-color: black;
+color: rgb(255, 255, 255);
 font-size: 20px;
 font-style: normal;
 font-weight: 500;
@@ -33,6 +33,7 @@ margin-left: 40px;
 text-decoration: none;
 }
 .container {
+    color: rgb(255, 254, 254);
     display: block;
     max-width: 1200px;
     margin: 0 auto;
@@ -62,7 +63,7 @@ text-decoration: none;
 
     text-align: center !important;
     padding: 5px;
-    color: rgb(57, 57, 57);
+    color: rgb(255, 254, 254);
 }
 .gallery img {
     width: 300px;
