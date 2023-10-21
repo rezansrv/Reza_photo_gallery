@@ -13,7 +13,7 @@ body {
     padding-top: 25px;
     padding-right: 20px;
     justify-content: right;
-    background: rgb(67, 67, 67);
+    background: white;
 }
 
 .nav ul {
@@ -25,7 +25,7 @@ body {
 
 .nav ul li a{
 font-size: 20px;
-color: #ffffff;
+color: #000000;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -119,9 +119,11 @@ text-decoration: none;
 
 @media only screen and (max-width: 450px) {
     
-}
+    body{
+        width: 100%;
+    }
     #img1 {
-        width: 300px;
+        width: 320px;
         height: 400px;
     }
     #img2 {
