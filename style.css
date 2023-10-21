@@ -10,12 +10,12 @@ body {
     
 .navBar{
     display: flex;
+    width: 100%;
     padding-top: 25px;
-    padding-right: 20px;
+    padding-right: 40px;
     justify-content: right;
-    background: white;
-}
-
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);}
 .nav ul {
     display: flex;
 }
@@ -38,12 +38,13 @@ text-decoration: none;
     font-size: 19.5px;
     }
 .container {
-    color: rgb(255, 254, 254);
+    color: #3498db;
     display: block;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px;
+    
 }
 
 /* استایل گالری عکس */
@@ -56,6 +57,8 @@ text-decoration: none;
     margin-top: 10px;
     flex-wrap: wrap;
     border: none;
+    background: linear-gradient(90deg, #3498db27, #2ecc7016);
+
     justify-content: center;
 
 }
@@ -73,7 +76,7 @@ text-decoration: none;
 
     text-align: center !important;
     padding: 5px;
-    color: rgb(255, 254, 254);
+    color: #2ecc71;
 }
 .gallery img {
     width: 300px;

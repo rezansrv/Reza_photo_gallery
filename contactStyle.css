@@ -10,37 +10,35 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-.navBar {
+.navBar{
     display: flex;
+    padding-top: 10px;
+    padding-right: 20px;
     width: 100%;
-    margin-top: 0;
-    padding: 5px; /* تغییر پدینگ */
-    justify-content: space-between; /* تغییر از راست به فضا بینی */
-    background: white;
-}
-
+    justify-content: right;
+    background: linear-gradient(90deg, #3498db, #2ecc71);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);}
 .nav ul {
     display: flex;
-    list-style: none; /* تغییر از li به ul */
+}
+.nav ul li{
+    list-style: none;
 }
 
-.nav ul li {
-    margin-left: 20px; /* تغییر از margin-right به margin-left */
+.nav ul li a{
+font-size: 20px;
+color: #000000;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 40px;
+text-decoration: none;
 }
 
-.nav ul li a {
-    font-size: 20px;
-    color: #000000;
-    font-weight: 500;
-    text-decoration: none;
-}
-
-.nav ul li a:hover {
+.nav ul li a:hover{
     color: rgba(0, 0, 0, 0.705);
     font-size: 19.5px;
-}
-
+    }
 .center {
     text-align: center;
 }
@@ -48,8 +46,8 @@ body {
 .contact-container {
     max-width: 800px;
     padding: 20px;
-    
-    background-color: #ffffffd8;
+    color: white;
+    background: linear-gradient(90deg, #3498db27, #2ecc7016);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -107,6 +105,8 @@ button:hover {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
+    color: #3498db;
+
 }
 
 .social-links i {
