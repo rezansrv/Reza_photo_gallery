@@ -11,6 +11,7 @@ body {
 .navBar{
     display: flex;
     padding-top: 25px;
+    padding-right: 20px;
     justify-content: right;
     background: white;
 }
@@ -53,7 +54,7 @@ text-decoration: none;
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 15px;
+    padding: 25px;
     margin-top: 30px;
 
 }
