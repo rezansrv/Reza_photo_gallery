@@ -50,9 +50,14 @@ text-decoration: none;
 .gallery {
     max-width: 1200px;
     display: flex;
-    margin-top: 20px;
+    border-radius: 35px;
+    padding-top: 50px;
+    background: #ffffff13;
+    margin-top: 10px;
     flex-wrap: wrap;
+    border: none;
     justify-content: center;
+
 }
 
 .galleryTitle {
