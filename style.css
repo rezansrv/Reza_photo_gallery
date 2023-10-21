@@ -10,10 +10,9 @@ body {
     
 .navBar{
     display: flex;
-    margin-right:30px ;
-    margin-top: 30px;
+    padding-top: 25px;
     justify-content: right;
-
+    background: white;
 }
 
 .nav ul {
@@ -24,8 +23,8 @@ body {
 }
 
 .nav ul li a{
-color: rgb(255, 255, 255);
 font-size: 20px;
+color: #000000;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -98,13 +97,14 @@ text-decoration: none;
     width: 950px;
     height: 520px;
 }
-.gallery img:hover {
-    transform: scale(0.95);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
 #img7{
     width: 950px;
     height: 400px;
+}
+
+.gallery img:hover {
+    transform: scale(0.95);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* استایل پاپ آپ */
@@ -114,4 +114,52 @@ text-decoration: none;
 
 .modal-footer {
     justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+    #img1 {
+        width: 400px;
+        height: 400px;
+    }
+    #img2 {
+        width: 400px;
+        height: 400px;
+    }
+    #img3 {
+        width: 400px;
+        height: 400px;
+    }
+    #img4 {
+        width: 400px;
+        height: 400px;
+    }
+    #img5 {
+        width: 400px;
+        height: 400px;
+    }
+    #img6 {
+        width: 400px;
+        height: 400px;
+    }
+    #img7 {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .navBar{
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .nav ul li a{
+        font-size: 15px;
+        padding: 0;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }
 }
