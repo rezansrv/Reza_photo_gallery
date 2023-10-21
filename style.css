@@ -118,6 +118,10 @@ text-decoration: none;
 }
 
 @media only screen and (max-width: 450px) {
+    
+    body{
+        width: 100%;
+    }
     #img1 {
         width: 300px;
         height: 400px;
