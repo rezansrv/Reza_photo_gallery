@@ -73,10 +73,11 @@ text-decoration: none;
 }
 .container .caption 
 {
-
+    margin-top: -23px;
     text-align: center !important;
     padding: 5px;
     color: #2ecc71;
+    margin-bottom: 40px;
 }
 .gallery img {
     width: 300px;
@@ -91,6 +92,8 @@ text-decoration: none;
 #img1{
     width: 950px;
     height: 380px;
+    border-top-left-radius: 20PX;
+    border-top-right-radius: 20PX;
 }
 #img2{
     height: 460px;
