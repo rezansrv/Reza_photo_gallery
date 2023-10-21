@@ -179,4 +179,7 @@ text-decoration: none;
         justify-content: center;
         text-align: center;
     }
+    .gallery{
+        padding-top: 10px;
+    }
 }
