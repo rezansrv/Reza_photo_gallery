@@ -9,13 +9,16 @@ body {
 
     
 .navBar{
-    display: flex;
     width: 100%;
     padding-top: 25px;
     padding-right: 40px;
-    justify-content: right;
+    padding-left: 40px;
     background: linear-gradient(90deg, #3498db, #2ecc71);
     box-shadow: 0 6px 20px rgba(255, 255, 255, 0.2);}
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
 .nav ul {
     display: flex;
 }
@@ -31,11 +34,20 @@ font-weight: 500;
 line-height: normal;
 margin-left: 40px;
 text-decoration: none;
+
 }
 
 .nav ul li a:hover{
     color: rgba(0, 0, 0, 0.705);
     font-size: 19.5px;
+    
+    }
+    .logo{
+        width: 100px;
+        height: 30px;
+    display: flex;
+justify-content: space-between;  
+  
     }
 .container {
     color: rgb(212, 212, 212);
@@ -46,6 +58,8 @@ text-decoration: none;
     padding: 20px;
     
 }
+
+
 .container h1{
     font-size: 45px;
 }
@@ -140,12 +154,17 @@ text-decoration: none;
     body{
         width: 100%;
     }
+    .logo{
+        margin-left: 80px;
+        margin-bottom: 10px;
+    }
     #img1 {
+        border-radius:50px 50px 0 0 ;
         width: 300px;
         height: 400px;
     }
     #img2 {
-        width: 400px;
+        width: 300px;
         height: 400px;
     }
     #img3 {
@@ -157,7 +176,7 @@ text-decoration: none;
         height: 400px;
     }
     #img5 {
-        width: 400px;
+        width: 300px;
         height: 400px;
     }
     #img6 {
@@ -172,6 +191,7 @@ text-decoration: none;
         width: 450px;
         height: 400px;
     }
+    
     
     .navBar{
         display: block;
