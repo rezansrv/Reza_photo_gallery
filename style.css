@@ -155,6 +155,8 @@ justify-content: space-between;
         width: 100%;
     }
     .logo{
+        width:70px;
+        height: 20px;
         margin-left: 80px;
         margin-bottom: 10px;
     }
