@@ -38,13 +38,16 @@ text-decoration: none;
     font-size: 19.5px;
     }
 .container {
-    color: #3498db;
+    color: rgb(212, 212, 212);
     display: block;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 20px;
     padding: 20px;
     
+}
+.container h1{
+    font-size: 45px;
 }
 
 /* استایل گالری عکس */
@@ -53,7 +56,6 @@ text-decoration: none;
     display: flex;
     border-radius: 35px;
     padding-top: 50px;
-    background: #ffffff13;
     margin-top: 10px;
     flex-wrap: wrap;
     border: none;
