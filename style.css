@@ -46,11 +46,15 @@ body {
   }
 
   .nav ul li a {
-    font-size: 16px;
+    font-size: 19px;
     color: #000000;
     text-decoration: none;
   }
 
+  .nav ul li a:hover{
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 19.5px;
+    }
   .nav-toggle {
     display: none;
     font-size: 24px;
