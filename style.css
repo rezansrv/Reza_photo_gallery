@@ -74,7 +74,7 @@ body {
   @media (max-width: 775px) {
     .nav {
         justify-content: space-between;
-margin-right: 10px;    }
+margin-right: 15px;    }
     .logo img{
         margin-left: -60px;
     }
