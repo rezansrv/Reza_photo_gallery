@@ -289,7 +289,7 @@ margin-right: 15px;    }
   
   .footer-text {
     font-size: 14px;
-    color: #888;
+    color: #fbfbfb;
   }
   
   .footer-heart {
@@ -302,5 +302,6 @@ margin-right: 15px;    }
     position: absolute;
     margin: 0 auto;
     margin-top: 25px;
+    color: #797979;
 
   }

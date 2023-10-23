@@ -148,7 +148,7 @@ button:hover {
   
   .footer-text {
     font-size: 14px;
-    color: #888;
+    color: #fbfbfb;
   }
   
   .footer-heart {
@@ -161,5 +161,5 @@ button:hover {
     position: absolute;
     margin: 0 auto;
     margin-top: 40px;
-    color: #323232;
+    color: #797979;
   }
