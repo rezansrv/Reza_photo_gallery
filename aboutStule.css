@@ -105,3 +105,30 @@ a{
         font-size: 14px;
         }
 }
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .footer-heart {
+    font-size: 14px;
+    color: #e74c3c;
+  }
+
+  .footer small{
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #323232;
+
+  }
