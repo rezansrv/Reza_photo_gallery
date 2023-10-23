@@ -76,6 +76,7 @@ body {
   @media (max-width: 775px) {
     .nav {
         justify-content: space-between;
+        
 margin-right: 15px;    }
     .logo img{
         margin-left: -60px;
@@ -84,6 +85,7 @@ margin-right: 15px;    }
     .nav ul {
       display: none;
       width: 100%;
+      padding-top: 25px;
     }
 
     .nav ul.show {
@@ -261,6 +263,7 @@ margin-right: 15px;    }
         text-align: center;
         justify-content: center;
         text-align: center;
+        
     }
 
     .nav ul li a:hover{
