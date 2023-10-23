@@ -36,3 +36,5 @@ function openPopup(imageUrl) {
        xhr.send();
    }
    loadNavbar();
+
+   

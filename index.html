@@ -11,33 +11,27 @@
 
 </head>
 <body>
-  <div class="navBar">
-    <div class="nav" >
-      <div class="logo">
-        <img  src="/img/logo.png" alt=" لوگو" >
+  <body>
+    <div class="navBar">
+      <div class="nav">
+        <div class="logo">
+          <img src="/img/logo.png" alt="لوگو">
+        </div>
+        <button class="nav-toggle" onclick="toggleMenu()">&#9776;</button>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="aboutMe.html">درباره من</a></li>
+          <li><a href="/contact.html">ارتباط با من</a></li>
+          <li><a href="index.html">صفحه نخست</a></li>
+        </ul>
       </div>
-      
-<div>
-  <ul>
-    <li>
-      <a href="aboutMe.html"
-        >درباره من
-      </a>
-    </li>
-    <li><a href="/contact.html"> ارتباط با من</a></li>
-    <li>
-      <a href="index.html">صفحه نخست</a
-      >
-      </li>
-  </ul>  
-</div>
-
-
-
     </div>
-  </div>
-
-
+  
+    <script>
+      function toggleMenu() {
+        var menu = document.getElementById("navMenu");
+        menu.classList.toggle("show");
+      }
+    </script>
 
   <div class="container">
     <h1 class="galleryTitle"> گالری عکس های من</h1>
